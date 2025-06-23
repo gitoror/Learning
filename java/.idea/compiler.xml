@@ -7,20 +7,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="database-with-spring-jdbc" />
         <module name="db-with-jdbc" />
-        <module name="db-with-spring-data-jdbc" />
+        <module name="database-with-spring-jdbc" />
+        <module name="spring-boot-data-jpa-two-datasources" />
+        <module name="database-with-spring-data-jdbc" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="test" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="database-with-spring-data-jdbc" options="-parameters" />
       <module name="database-with-spring-jdbc" options="-parameters" />
       <module name="db-with-jdbc" options="-parameters" />
-      <module name="db-with-spring-data-jdbc" options="-parameters" />
+      <module name="spring-boot-data-jpa-two-datasources" options="-parameters" />
     </option>
   </component>
 </project>

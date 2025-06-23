@@ -1,0 +1,9 @@
+CREATE DATABASE IF NOT EXISTS demo_mysql;
+USE demo_mysql;
+
+CREATE TABLE IF NOT EXISTS clients (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL
+);
+
+INSERT INTO clients (name) VALUES ('MySQL Test Client');

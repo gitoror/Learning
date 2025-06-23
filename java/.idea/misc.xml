@@ -4,17 +4,11 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/java/demo/pom.xml" />
-        <option value="$PROJECT_DIR$/java/test/pom.xml" />
-        <option value="$PROJECT_DIR$/java/database-with-spring-jdbc/pom.xml" />
-        <option value="$PROJECT_DIR$/java/db-with-jdbc/pom.xml" />
-        <option value="$PROJECT_DIR$/java/db-with-spring-data-jdbc/pom.xml" />
+        <option value="$PROJECT_DIR$/demo/pom.xml" />
+        <option value="$PROJECT_DIR$/db-with-jdbc/pom.xml" />
+        <option value="$PROJECT_DIR$/db-with-spring-data-jdbc/pom.xml" />
+        <option value="$PROJECT_DIR$/database-with-spring-jdbc/pom.xml" />
       </list>
-    </option>
-    <option name="ignoredFiles">
-      <set>
-        <option value="$PROJECT_DIR$/java/test/pom.xml" />
-      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true" project-jdk-name="corretto-21" project-jdk-type="JavaSDK">
